@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "rolefont";
+  src: url('iconfont.eot?t=1496988524011');
+  /* IE9*/
+  src: url('iconfont.eot?t=1496988524011#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496988524011') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496988524011') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496988524011#rolefont') format('svg');
+  /* iOS 4.1- */
+}
+
+.rolefont {
+  font-family: "rolefont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.role-trash:before {
+  content: "\e73b";
+}
+
+.role-wrong:before {
+  content: "\e68f";
+}
+
+.role-ok:before {
+  content: "\e646";
+}
