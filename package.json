@@ -22,8 +22,9 @@
     "react-dom": "16.2.0",
     "react-scripts": "1.0.5"
   },
-  "publishConfig": {
-    "registry": "http://192.168.3.103:4873"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinggangling/rule-editor"
   },
   "scripts": {
     "start": "react-scripts start",
