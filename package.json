@@ -1,5 +1,5 @@
 {
-  "name": "rule-editor",
+  "name": "rule-edit",
   "version": "0.0.1",
   "private": false,
   "files": [
@@ -8,6 +8,7 @@
     "index.js",
     "README.md"
   ],
+  "author": "0xg",
   "dependencies": {
     "d3": "^5.7.0",
     "lodash": "^4.17.4",
