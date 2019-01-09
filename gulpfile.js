@@ -4,7 +4,7 @@ const importCss = require('gulp-import-css');
 
 gulp.task('js', () => {
 		process.env.NODE_ENV = 'production';
-    return gulp.src('src/roleEditor.js')
+    return gulp.src('src/ruleEditor.js')
         .pipe(babel({
             presets: ['es2015','react','stage-1']
         }))
@@ -12,7 +12,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('css', () => {
-	return gulp.src(['src/roleEditor.css'])
+	return gulp.src(['src/ruleEditor.css'])
 					.pipe(importCss())
 					.pipe(gulp.dest('lib'))
 });
