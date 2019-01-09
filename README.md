@@ -4,6 +4,8 @@
 
 ```
   npm install rule-edit -D
+
+  import RuleEditor from 'rule-edit'
 ```
 
 ### Description
